@@ -6,6 +6,7 @@ additionalProperties:
       labelZh: "Base URL"
       required: true
       type: text
+      description: "必须改为浏览器实际访问源"
       label:
         en: "Base URL"
         es-es: "Base URL"
@@ -23,6 +24,7 @@ additionalProperties:
       labelZh: "Trust Proxy"
       required: true
       type: text
+      description: "走反代后必须设为 true ，否则登录/注册会被 CSRF 拒绝"
       label:
         en: "Trust Proxy"
         es-es: "Trust Proxy"
