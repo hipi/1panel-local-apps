@@ -1,0 +1,54 @@
+additionalProperties:
+  formFields:
+    - default: http://localhost:8686
+      envKey: IMGLI_BASE_URL
+      labelEn: "Base URL"
+      labelZh: "Base URL"
+      required: true
+      type: text
+      label:
+        en: "Base URL"
+        es-es: "Base URL"
+        ja: "Base URL"
+        ms: "Base URL"
+        pt-br: "Base URL"
+        ru: "Base URL"
+        ko: "Base URL"
+        zh-Hant: "Base URL"
+        zh: "Base URL"
+        tr: "Base URL"
+    - default: "false"
+      envKey: IMGLI_TRUST_PROXY
+      labelEn: "Trust Proxy"
+      labelZh: "Trust Proxy"
+      required: true
+      type: text
+      label:
+        en: "Trust Proxy"
+        es-es: "Trust Proxy"
+        ja: "Trust Proxy"
+        ms: "Trust Proxy"
+        pt-br: "Trust Proxy"
+        ru: "Trust Proxy"
+        ko: "Trust Proxy"
+        zh-Hant: "Trust Proxy"
+        zh: "Trust Proxy"
+        tr: "Trust Proxy"
+    - default: 8686
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: "Web UI Port"
+      labelZh: "Web UI 端口"
+      label:
+        en: "Web UI Port"
+        es-es: "Puerto web"
+        ja: "Web UIポート"
+        ms: "Port Web UI"
+        pt-br: "Porta da Web UI"
+        ru: "Порт веб-интерфейса"
+        ko: "웹 UI 포트"
+        zh-Hant: "Web UI 埠"
+        zh: "Web UI 端口"
+        tr: "Web UI Bağlantı Noktası"
+      required: true
+      rule: paramPort
+      type: number

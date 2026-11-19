@@ -1,0 +1,31 @@
+name: imgli
+tags:
+  - Tool
+title: imgli
+description: "采用 Go 编写、内置 React 前端的自托管图床服务。"
+additionalProperties:
+  key: imgli
+  name: imgli
+  tags:
+    - Tool
+  shortDescZh: "单二进制自托管图床，内置 React 前端，上传即得链接。"
+  shortDescEn: "Self-hosted image hosting with a built-in React frontend — upload and get a link."
+  description:
+    en: "Self-hosted image hosting service written in Go with a built-in React frontend."
+    es-es: "Self-hosted image hosting service written in Go with a built-in React frontend."
+    ja: "Self-hosted image hosting service written in Go with a built-in React frontend."
+    ms: "Self-hosted image hosting service written in Go with a built-in React frontend."
+    pt-br: "Self-hosted image hosting service written in Go with a built-in React frontend."
+    ru: "Self-hosted image hosting service written in Go with a built-in React frontend."
+    ko: "Self-hosted image hosting service written in Go with a built-in React frontend."
+    zh-Hant: "採用 Go 編寫、內建 React 前端的自託管圖床服務。"
+    zh: "采用 Go 编写、内置 React 前端的自托管图床服务。"
+    tr: "Self-hosted image hosting service written in Go with a built-in React frontend."
+  type: tool
+  crossVersionUpdate: true
+  limit: 0
+  architectures:
+    - amd64
+  website: https://imgli.com
+  github: https://github.com/yixian-huang/imgli
+  document: https://docs.imgli.com
