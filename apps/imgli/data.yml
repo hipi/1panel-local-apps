@@ -1,13 +1,13 @@
 name: imgli
 tags:
-  - Tool
+  - WebSite
 title: imgli
 description: "采用 Go 编写、内置 React 前端的自托管图床服务。"
 additionalProperties:
   key: imgli
   name: imgli
   tags:
-    - Tool
+    - WebSite
   shortDescZh: "采用 Go 编写、内置 React 前端的自托管图床服务。"
   shortDescEn: "Self-hosted image hosting service written in Go with a built-in React frontend."
   description:
@@ -21,7 +21,7 @@ additionalProperties:
     zh-Hant: "採用 Go 編寫、內建 React 前端的自託管圖床服務。"
     zh: "采用 Go 编写、内置 React 前端的自托管图床服务。"
     tr: "Self-hosted image hosting service written in Go with a built-in React frontend."
-  type: tool
+  type: website
   crossVersionUpdate: true
   limit: 0
   architectures:
