@@ -8,8 +8,8 @@ additionalProperties:
   name: imgli
   tags:
     - Tool
-  shortDescZh: "单二进制自托管图床，内置 React 前端，上传即得链接。"
-  shortDescEn: "Self-hosted image hosting with a built-in React frontend — upload and get a link."
+  shortDescZh: "采用 Go 编写、内置 React 前端的自托管图床服务。"
+  shortDescEn: "Self-hosted image hosting service written in Go with a built-in React frontend."
   description:
     en: "Self-hosted image hosting service written in Go with a built-in React frontend."
     es-es: "Self-hosted image hosting service written in Go with a built-in React frontend."
@@ -26,6 +26,7 @@ additionalProperties:
   limit: 0
   architectures:
     - amd64
+    - arm64
   website: https://imgli.com
   github: https://github.com/yixian-huang/imgli
   document: https://docs.imgli.com

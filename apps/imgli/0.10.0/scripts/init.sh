@@ -2,6 +2,7 @@
 
 # Generated from official installation evidence:
 # - https://github.com/yixian-huang/imgli/blob/main/Dockerfile
+# - https://github.com/yixian-huang/imgli/blob/main/docker-entrypoint.sh
 
 # Adjust host-mounted data directory permissions for the container runtime user.
 if [ -d data ]; then
